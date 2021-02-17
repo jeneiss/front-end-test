@@ -7,6 +7,7 @@ import WelcomeWrapper from './WelcomeWrapper'
 import StoreInfo from './StoreInfo'
 import Survey from './Survey'
 import EndScreen from './EndScreen'
+import Destination from './Destination'
 
 function App() {
   return (
@@ -29,11 +30,17 @@ function App() {
                 <Survey />
               </WelcomeWrapper>
             </Route>
+
+            <Route path='/destination'>
+              <Destination />
+            </Route>
+
+            <Route path='/end-screen'>
+              <EndScreen />
+            </Route>
           </DestinationContextProvider>
 
-          <Route path='/end-screen'>
-            <EndScreen />
-          </Route>
+
         </Switch>
       </Router>
     </div>
@@ -41,9 +48,3 @@ function App() {
 }
 
 export default App
-
-//Needs router
-//3 buttons with paths to:
-//  John: <StoreInfo /> => <Survey /> => <EndScreen />
-//  Claire: <Survey /> => <EndScreen />
-//  Paul: <EndScreen />
