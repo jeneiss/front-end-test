@@ -1,5 +1,5 @@
 import React from 'react'
-import { DestinationContext, DestinationContextProvider } from './DestinationContext'
+import { DestinationContextProvider } from './DestinationContext'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import Welcome from './Welcome'
@@ -32,7 +32,9 @@ function App() {
             </Route>
 
             <Route path='/destination'>
-              <Destination />
+              <WelcomeWrapper>
+                <Destination />
+              </WelcomeWrapper>
             </Route>
 
             <Route path='/end-screen'>
