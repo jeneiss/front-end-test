@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { useHistory } from 'react-router-dom'
+import { useHistory, Link } from 'react-router-dom'
 import { DestinationContext } from './DestinationContext'
 
 function Survey() {
@@ -41,7 +41,7 @@ function Survey() {
       <form onSubmit={handleSubmit}>
 
         <div className='survey__hear-group'>
-          <h3>How did you hear about littledata?</h3>
+          <h2>How did you hear about littledata?</h2>
           <div className='survey__input'>
             <label>
               How did you hear about littledata?
@@ -118,7 +118,7 @@ function Survey() {
         </div>
 
         <div className='survey__agency-group'>
-          <h3>Are you part of an agency or consulting firm?</h3>
+          <h2>Are you part of an agency or consulting firm?</h2>
           <div className='survey__input'>
             <label>
               Yes
@@ -146,7 +146,18 @@ function Survey() {
           </div>
         </div>
 
-        <input type="submit" value="Submit" />
+        <div className='survey__nav-btn-container'>
+          <button
+            className='survey__nav-btn'
+            onClick={history.goBack}
+          >Back</button>
+          <input
+            className='survey__nav-btn'
+            type="submit"
+            value="Submit"
+          />
+        </div>
+
       </form>
     </div>
   )
