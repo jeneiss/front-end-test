@@ -1,4 +1,5 @@
 import React from 'react'
+import { DestinationContext, DestinationContextProvider } from './DestinationContext'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import Welcome from './Welcome'
@@ -16,17 +17,19 @@ function App() {
             <Welcome />
           </Route>
 
-          <Route path='/store-info'>
-            <WelcomeWrapper>
-              <StoreInfo />
-            </WelcomeWrapper>
-          </Route>
+          <DestinationContextProvider>
+            <Route path='/store-info'>
+              <WelcomeWrapper>
+                <StoreInfo />
+              </WelcomeWrapper>
+            </Route>
 
-          <Route path='/survey'>
-            <WelcomeWrapper>
-              <Survey />
-            </WelcomeWrapper>
-          </Route>
+            <Route path='/survey'>
+              <WelcomeWrapper>
+                <Survey />
+              </WelcomeWrapper>
+            </Route>
+          </DestinationContextProvider>
 
           <Route path='/end-screen'>
             <EndScreen />
