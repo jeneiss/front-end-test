@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function EndScreen() {
   return (
-    <h1>End screen</h1>
+    <Link className='nav__btn' to='/'>Go back to start</Link>
   )
 }
 
