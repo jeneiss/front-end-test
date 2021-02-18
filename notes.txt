@@ -10,6 +10,7 @@ cd littledata_test
 npm run start
 
 To build (production):
+cd littledata_test
 npm run build
 
 ## Notes
