@@ -1,8 +1,4 @@
-.store__container {
-  margin-top: 3rem;
-}
-
-label {
+.store__label {
   margin-top: 1.5rem;
   font-size: 1.5rem;
   font-weight: 700;
@@ -58,21 +54,20 @@ label {
   text-align: right;
 }
 
-.nav-btn {
-  display: inline-block;
-  position: relative;
-}
-
 .store__nav-btn-next {
   position: relative;
   margin-top: 3rem;
-  padding: 0.75rem 4rem 0.75rem 1rem;
+  padding: 0.75rem 1rem 0.75rem;
   background-color: #57C1BA;
   color: #fff;
   border: none;
   border-radius: 4px;
   font-size: 0.875rem;
   text-transform: uppercase;
+}
+
+.icon-arrow-right2 {
+  padding-right: 4rem;
 }
 
 .icon-arrow-right2::before {
@@ -83,7 +78,7 @@ label {
   top: 17%;
   color: #fff;
   font-size: 1.5rem;
-  z-index: 5;
+  z-index: 1;
 }
 
 

@@ -41,6 +41,10 @@
   width: 100%;
 }
 
+.welcome__content-container {
+  margin-top: 3rem;
+}
+
 /* TABLET */
 @media only screen and (min-width: 32.5rem) {
   .welcome__container-inner {

@@ -54,7 +54,7 @@ function StoreInfo() {
     <div className='store__container'>
       <form onSubmit={handleSubmit}>
         <div className='store__input-container store'>
-          <label>
+          <label className='store__label'>
             Store name
             <input
               className='store__input'
@@ -69,7 +69,7 @@ function StoreInfo() {
         </div>
 
         <div className='store__input-container url'>
-          <label>
+          <label className='store__label'>
             Store URL
             <input
               className='store__input'
@@ -84,7 +84,7 @@ function StoreInfo() {
         </div>
 
         <div className='store__input-container email'>
-          <label>
+          <label className='store__label'>
             Email notifications
             <input
               className='store__input-email'
