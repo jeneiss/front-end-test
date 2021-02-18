@@ -20,6 +20,7 @@ Used create-react-app for quick spin up
 Font wasn't provided so doesn't match wireframe
 Browser spec wasn't provided so stuck to latest modern browsers
 Icons not provided so used approximate Icomoon equivalents
+Used Lighthouse to test performance/accessibilty: looks a-okay
 Tested Chrome, Firefox and Edge, but only in Chrome emulator for mobile/tablet
 
 ### Improvements
@@ -29,6 +30,7 @@ I feel like the code is fairly self-explanatory but could use more comments for 
 Should put a 404 page in there for safety
 Better input validation and form building, possibly using a library like Formik
 Variable naming could always use another run through
+Code-splitting (can use react-router for this), although app is so small that performace is decent
 
 ### Hardest aspect of challenge
 Finding the time! Perhaps I was being overly detailed but this took me a while.
