@@ -20,19 +20,19 @@ function App() {
 
           <DestinationContextProvider>
             <Route path='/store-info'>
-              <WelcomeWrapper>
+              <WelcomeWrapper title='Welcome to littledata' hasProgress={true} fill={50}>
                 <StoreInfo />
               </WelcomeWrapper>
             </Route>
 
             <Route path='/survey'>
-              <WelcomeWrapper>
+              <WelcomeWrapper title='Welcome to littledata' hasProgress={true} fill={100}>
                 <Survey />
               </WelcomeWrapper>
             </Route>
 
             <Route path='/destination'>
-              <WelcomeWrapper>
+              <WelcomeWrapper title='Choose Destination' hasProgress={false} fill={0}>
                 <Destination />
               </WelcomeWrapper>
             </Route>

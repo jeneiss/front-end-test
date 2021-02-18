@@ -154,7 +154,7 @@ function Survey() {
           <input
             className='survey__nav-btn'
             type="submit"
-            value="Submit"
+            value="Next"
           />
         </div>
 
