@@ -41,7 +41,7 @@
   min-height: 2.625rem;
 }
 
-/* TABLET */
+/* TABLET+ */
 @media only screen and (min-width: 32.5rem) {
   .destination__btn-container {
     flex-direction: row;

@@ -1,0 +1,17 @@
+.end-screen__link-container {
+  margin-top: 3rem;
+}
+
+.end-screen__link-container a {
+  text-decoration: none;
+}
+
+.end-screen__link {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}

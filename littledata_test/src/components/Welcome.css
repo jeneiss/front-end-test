@@ -1,1 +1,57 @@
+.welcome__content-container-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 4rem auto;
+}
 
+.welcome__title-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.welcome__profile {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.welcome__profile-title {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome__profile-text {
+  padding: 2rem 1.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #EFEFEF;
+}
+
+.welcome__profile a {
+  text-decoration: none;
+}
+
+.welcome__link {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* TABLET+ */
+@media only screen and (min-width: 62rem) {
+  .welcome__content-container-inner {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 4rem auto;
+  }
+
+  .welcome__profile {
+    margin: 0 2rem 0;
+  }
+}
