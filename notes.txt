@@ -1,0 +1,33 @@
+# Littledata front-end test project
+
+## Sources
+Deployed on Netlify at https://determined-mccarthy-cb418c.netlify.app/
+Code repo: https://github.com/jeneiss/front-end-test
+
+## How to run
+To run on http://localhost:3000:
+cd littledata_test
+npm run start
+
+To build (production):
+npm run build
+
+## Notes
+
+### Bear in mind
+Used create-react-app for quick spin up
+Font wasn't provided so doesn't match wireframe
+Browser spec wasn't provided so stuck to latest modern browsers
+Icons not provided so used approximate Icomoon equivalents
+Tested Chrome, Firefox and Edge, but only in Chrome emulator for mobile/tablet
+
+### Improvements
+Would be good to encapsulate the components further with, for example, styled components (I went for straight CSS as it's what I'm most comfortable with)
+More time for a refactor is always useful
+I feel like the code is fairly self-explanatory but could use more comments for clarity--would be good to know where the sticking points are
+Should put a 404 page in there for safety
+Better input validation and form building, possibly using a library like Formik
+Variable naming could always use another run through
+
+### Hardest aspect of challenge
+Finding the time! Perhaps I was being overly detailed but this took me a while.
