@@ -30,7 +30,7 @@ I feel like the code is fairly self-explanatory but could use more comments for 
 Should put a 404 page in there for safety
 Better input validation and form building, possibly using a library like Formik
 Variable naming could always use another run through
-Code-splitting (can use react-router for this), although app is so small that performace is decent
+Code-splitting (can use react-router for this), although app is so small that performance is decent
 
 ### Hardest aspect of challenge
 Finding the time! Perhaps I was being overly detailed but this took me a while.
